@@ -19,3 +19,11 @@ double average = (grade1 + grade2 + grade3 + grade4) / 4;
 
 Console.WriteLine("\n" + name + ", your average is " + average);
 
+        if (average >= 75)
+        {
+            Console.WriteLine(name +", you PASSED!");
+        }
+        else
+        {
+            Console.WriteLine(name +", you FAILED!");
+        }
