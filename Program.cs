@@ -17,7 +17,7 @@ double grade4 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Enter your fifth grade  : ");
 double grade5 = Convert.ToDouble(Console.ReadLine());
 
-double average = (grade1 + grade2 + grade3 + grade4) / 4;
+double average = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
 
 Console.WriteLine("\n" + name + ", your average is " + average);
 
